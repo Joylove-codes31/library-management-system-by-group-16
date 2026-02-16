@@ -1,0 +1,39 @@
+body{
+    background-image:url(gf.jpg);
+    background-size: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.custom-text{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+button{
+    border-color: rgb(209, 247, 247);
+    background-color: aliceblue;
+    border-radius: 40px;
+    transform: translateY(3px);
+    transform: scale(1.05px);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(255, 255, 255);
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+transform: translateY(3px);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(46, 44, 48);
+}
+
+label{
+text-shadow: 5px rgb(155, 151, 159);
+}
+input{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(212, 212, 212);
+}

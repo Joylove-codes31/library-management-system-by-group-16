@@ -1,0 +1,48 @@
+body{
+    background-image: url(dsa.jpg);
+    background-size: cover;
+}
+button{
+    border-color: rgb(209, 247, 247);
+    background-color: aliceblue;
+    border-radius: 40px;
+    transform: translateY(3px);
+    transform: scale(1.05px);
+    transition: 0.9s;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+button:hover{
+background-color: rgb(255, 255, 255);
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+transform: translateY(3px);
+}
+p{
+   padding: 20px; 
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 44, 48);
+}
+.welcome{
+    background-color: ivory;
+    border-radius: 10px;
+    text-align: center;
+}
+.buttons{
+    align-items: center;
+}
+.sa{
+    border-image: round;
+    float: left;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 700px;
+    width: 650px;
+    transition: transfrom 0.3s ease;
+}
+.sa:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(0, 255, 255, 0.427);
+    background-size: auto ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1cm;
+}
+.image-container{
+    position: relative;
+    width: 100px;
+    height: 200px;
+}
+.image-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.ol{
+    text-align: justify;
+}
+.hh{
+    margin-top: 5cm;
+}
+table{
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+}
+.top-img{
+    opacity: 0;
+}
+.image-container:hover .top-img{
+    opacity: 1;
+}
+button{
+    border-color: rgb(209, 247, 247);
+    background-color: aliceblue;
+    border-radius: 40px;
+    transform: translateY(3px);
+    transform: scale(1.05px);
+    transition: 0.9s;
+    cursor: pointer;
+}
+button:hover{
+background-color: rgb(255, 255, 255);
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+transform: translateY(3px);
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 44, 48);
+}
+.h1{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.container { max-width: 1000px; margin: 0 auto; }
+.section-title { text-align: center; margin-bottom: 40px; font-size: 2rem; color: #2c3e50; }
+
+/* Grid Layout */
+.hub-grid {
+    Display: grid;
+    Grid-template-columns: 1fr 1fr;
+    Gap: 30px;
+}
+
+/* Event Cards */
+.event-card {
+    Display: flex;
+    Align-items: center;
+    Background: white;
+    Padding: 15px;
+    Margin-bottom: 15px;
+    Border-radius: 8px;
+    Box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.date-badge {
+    Background: #e67e22;
+    Color: white;
+    Padding: 10px;
+    Border-radius: 5px;
+    Font-weight: bold;
+    Text-align: center;
+    Min-width: 70px;
+    Margin-right: 15px;
+}
+
+.event-info h4 { margin-bottom: 5px; color: #2c3e50; }
+.view-all { color: #3498db; text-decoration: none; font-weight: bold; }
+
+/* Review Card */
+.review-card {
+    Background: #2c3e50;
+    Color: white;
+    Padding: 20px;
+    Border-radius: 12px;
+    Display: flex;
+    Gap: 20px;
+}
+
+.book-cover { border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+.stars { color: #f1c40f; font-size: 1.2rem; }
+.quote { font-style: italic; margin: 15px 0; line-height: 1.6; }
+.reviewer { font-size: 0.9rem; opacity: 0.8; }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hub-grid { grid-template-columns: 1fr; }
+}
+.p{text-align: left;
+    text-decoration-color: aqua;
+}

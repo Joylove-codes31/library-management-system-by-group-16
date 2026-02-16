@@ -1,0 +1,99 @@
+body{
+    background-image:url(hg.jpg);
+    background-size: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-text{
+   font-family: cursive;
+   border-radius: 20px;
+   border: 12px;
+}
+
+.box{
+    text-align: center;
+    
+}
+button{
+    border-color: rgb(209, 247, 247);
+    background-color: aliceblue;
+    border-radius: 40px;
+    transform: translateY(3px);
+    transform: scale(1.05px);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(255, 255, 255);
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+transform: translateY(3px);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(46, 44, 48);
+}
+
+label{
+text-shadow: 5px rgb(155, 151, 159);
+}
+input{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(212, 212, 212);
+}
+.container { max-width: 1000px; margin: 0 auto; }
+.section-title { text-align: center; margin-bottom: 40px; font-size: 2rem; color: #2c3e50; }
+
+
+.password {
+    Background: #e67e22;
+    Color: white;
+    Padding: 2px;
+    Border-radius: 5px;
+    Font-weight: bold;
+    Text-align: center;
+    Min-width: 30px;
+    Margin-right: 5px;
+}
+.email {
+    Background: #e67e22;
+    Color: white;
+    Padding: 2px;
+    Border-radius: 5px;
+    Font-weight: bold;
+    Text-align: center;
+    Min-width: 30px;
+    Margin-right: 5px;
+}
+.username {
+    Background: #e67e22;
+    Color: white;
+    Padding: 2px;
+    Border-radius: 5px;
+    Font-weight: bold;
+    Text-align: center;
+    Min-width: 30px;
+    Margin-right: 5px;
+}
+
+
+
+.event-info h4 { margin-bottom: 5px; color: #2c3e50; }
+.view-all { color: #3498db; text-decoration: none; font-weight: bold; }
+
+/* Review Card */
+.box {
+    Background: #2c3e50;
+    Color: white;
+    Border-radius: 12px;
+    align-content: center;
+    text-align: center;
+}
+
+.book-cover { border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+.stars { color: #f1c40f; font-size: 1.2rem; }
+.quote { font-style: italic; margin: 15px 0; line-height: 1.6; }
+.reviewer { font-size: 0.9rem; opacity: 0.8; }
+.em{text-decoration: underline;}
