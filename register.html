@@ -1,40 +1,54 @@
 <!DOCTYPE html>
-<html="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="register.css">
-        <title>Sign in</title>
-    </head>
-    <body>
-        <section class="box">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Member Form</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="page-wrap">
+        <header class="card form-header">
+            <h1>Library Member Form</h1>
+            <p>Submit borrowing and membership requests for library services.</p>
+            <nav class="top-nav">
+                <a href="Library.html">Home</a>
+                <a href="View Books.html">Books</a>
+                <a href="index.html">Media & Links</a>
+                <a href="register.html" class="active">Member Form</a>
+            </nav>
+        </header>
 
-        <form method="POST" action="/login-endpoint">
-            <h2 class="custom-text">Sign in</h2>
-            
-        <p>
-            <label class="username" for="name">Username</label>
-        <input type="text" id="name" placeholder="Username" required>
-    </p>
-    <p>
-        <label class="email" for="email">Email</label>
-        <input type="email" id="email" placeholder="Email" required>
-    </p>
-    <p>
-        <label class="password" for="password">Password</label>
-        <input type="password" id="password" placeholder="password" required>
-    </p>
-    <p>
-    <button class="log in" type="submit">Log in</button>
-    </p>
-        </form>
+        <section class="card form-card">
+            <h2>Member Request Details</h2>
+            <div class="form-layout">
+                <form>
+                    <label for="item-name">Book Title</label>
+                    <input id="item-name" name="item_name" type="text" required>
+
+                    <label for="requester-name">Requester Name</label>
+                    <input id="requester-name" name="requester_name" type="text" required>
+
+                    <fieldset>
+                        <legend>Request Type (Radio Buttons)</legend>
+                        <label><input type="radio" name="request_type" value="borrow" required> Borrow</label>
+                        <label><input type="radio" name="request_type" value="membership"> Membership</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Options (Check Boxes)</legend>
+                        <label><input type="checkbox" name="options" value="ebook"> Need eBook access</label>
+                        <label><input type="checkbox" name="options" value="reminder"> Enable due-date reminders</label>
+                    </fieldset>
+
+                    <button type="submit">Submit Form</button>
+                </form>
+                <aside class="form-image">
+                    <img src="as1.jpg" alt="Member desk section in the library">
+                </aside>
+            </div>
         </section>
-        <p>
-        <div>
-            <nav>
-            <button><a href="contact.html">Contact Us</a></button>
-        </nav>
-        </div>
-        <p class="footer-text">Don't Have an Account? <a href="signup.html"><em class="em">Sign up</em></a>
-        </p>
-    </body>
+    </div>
+</body>
 </html>

@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width initial-scale=1.0">
-<title>Library</title>
-<link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <table class="layout">
-            <tr>
-                <td><img src="wee.jpg" width="50px" alt="Library Logo"></td>
-                <td><h1>Library System</h1></td>
-            </tr>
-        </table>
-        <div class="buttons">
-        <nav>
-            <button><a href="index.html">community</a></button>
-            <button><a href="register.html">sign in</a></button>
-            <button><a href="contact.html">Contact Us</a></button>
-        </nav>
-        </div>
-        <br>
-        <div class="welcome">
-            <img class="sa" src="as.jpg">
-            <h2>Welcome to our Library</h2>
-        <p>This is the most trusted source where you can dive into the world of Knowledge.Welcome to the digital heart of our library—a sanctuary of knowledge reimagined for the modern age. Our website serves as your 24/7 gateway to a world of endless discovery, seamlessly blending the timeless charm of traditional literature with the cutting-edge convenience of digital technology. Whether you are a dedicated researcher, a casual reader, or a lifelong learner, this platform is designed to be your most reliable companion in the pursuit of information. Here, the boundaries of physical walls disappear, giving you instant access to a massive repository of resources that span centuries of human thought, all accessible from the comfort of your home. <h2>World of Resources at Your Fingertips</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management Home</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrap">
+        <header class="card header-card">
+            <h1>Library Management System</h1>
+            <p>Track books, member activity, and circulation operations.</p>
+            <nav class="top-nav">
+                <a href="Library.html" class="active">Home</a>
+                <a href="View Books.html">Books</a>
+                <a href="index.html">Media & Links</a>
+                <a href="register.html">Member Form</a>
+            </nav>
+        </header>
 
-Our extensive digital catalog is the centerpiece of our online presence, meticulously organized to help you navigate through millions of titles with ease. From the latest New York Times bestsellers and scholarly journals to rare historical archives and vibrant children<sup>’</sup>s media, our collection is as diverse as the community we serve. Our advanced search functionality allows you to filter by genre, format, and publication date, ensuring that the perfect book or article is never more than a few clicks away. Beyond text, we offer a rich selection of audiobooks and streaming media, catering to every style of consumption and ensuring that knowledge remains accessible to everyone, regardless of their preferred medium.</p>
+        <section class="card">
+            <h2>Dashboard Overview</h2>
+            <table class="layout-table">
+                <tr>
+                    <td>
+                        <div class="mini-panel">
+                            <h3>Total Titles</h3>
+                            <p>4,280</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mini-panel">
+                            <h3>Books Issued</h3>
+                            <p>37</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="mini-panel">
+                            <h3>Active Members</h3>
+                            <p>56</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <p class="note">This is an invisible-border table used for page layout.</p>
+        </section>
 
-<h2>More Than Just Books</h2>
-
-<p>We believe that a library is more than just a place to borrow books; it is a vibrant community hub dedicated to growth and connection. Our website keeps you plugged into a rotating calendar of events, including author talks, hands-on workshops, coding bootcamps, and storytime sessions for our youngest patrons. Through our integrated member portal, you can easily manage your account, renew items, place holds on upcoming releases, and receive personalized recommendations curated by our expert librarians. We also provide specialized research databases and e-learning tools that offer professional-grade insights for students and entrepreneurs looking to sharpen their skills in an ever-changing world.</p>
-
-<h2>Accessible, Inclusive, and Always Open</h2>
-
-<p>In an era where information is everywhere but clarity is scarce, our website stands as a pillar of curated, high-quality content. We are deeply committed to digital accessibility, ensuring that our interface is intuitive and navigable for users of all abilities. Our responsive design means you can transition seamlessly from your desktop to your smartphone, taking your library with you wherever life leads. We invite you to explore our virtual stacks, join a digital book club, or dive deep into our local history archives. No matter where you are in your intellectual journey, our library website is here to provide the tools, the space, and the inspiration you need to succeed.
-
-Would you like me to refine this description for a specific type of library, such as an academic university library or a small community public library</p>
-</div>
-        
-        <button><a href="View Books">View Books</button>    
-            <div class="footer">
-                <footer>
-                  <p>  <img src="dc.jpg" width="50px">
-                <quote>
-                    our most accessed and certified...
-                </quote>
-                </p>
-            </footer>
-            </div>
-    </body>
+        <section class="grid-two">
+            <article class="card">
+                <h2>Quick Actions</h2>
+                <ul>
+                    <li><a href="View Books.html">View complete book catalog</a></li>
+                    <li><a href="register.html">Submit member request</a></li>
+                    <li><a href="index.html">Check media and resource links</a></li>
+                </ul>
+            </article>
+            <article class="card image-box">
+                <h2>Library Hall Preview</h2>
+                <img src="R.jpg" alt="Library hall section">
+            </article>
+        </section>
+    </div>
+</body>
 </html>

@@ -1,21 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width initial-scale=1.0">
-<title>Library</title>
-<link rel="stylesheet" href="viewbooks.css">
-    </head>
-    <body>
-        <table border="2" class="layout">
-            <tr>
-                <td><img src="sas.jpg" alt="sas"></td>
-                <td><h1>Library System</h1></td>
-            </tr>
-        </table>
-        <nav>
-            <button><a href="register.html">Register</a></button>
-            <button><a href="contact.html">Contact</a></button>
-        </nav>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Book Catalogue</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="viewbooks.css">
+</head>
+<body>
+    <div class="page-wrap">
+        <header class="card page-header">
+            <h1>Digital Book Catalogue</h1>
+            <p>Browse featured books and open reference links.</p>
+            <nav class="top-nav">
+                <a href="Library.html">Home</a>
+                <a href="View Books.html" class="active">Books</a>
+                <a href="index.html">Media & Links</a>
+                <a href="register.html">Member Form</a>
+            </nav>
+        </header>
+
+        <section class="card book-gallery">
+            <img src="a5.jpg" alt="Reading desk inside the library">
+            <img src="a6.jpg" alt="Bookshelf lane in the library">
+        </section>
+
+        <section class="card">
+            <h2>Book Catalogue</h2>
+            <div class="table-wrap">
+                <table class="inventory-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Genre</th>
+                            <th>Reference</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td>The Great Gatsby</td><td>F. Scott Fitzgerald</td><td>Classic</td><td><a href="https://www.gutenberg.org/ebooks/64317" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>2</td><td>1984</td><td>George Orwell</td><td>Dystopian</td><td><a href="https://www.george-orwell.org/1984" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>3</td><td>The Hobbit</td><td>J.R.R. Tolkien</td><td>Fantasy</td><td><a href="https://www.tolkienestate.com" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>4</td><td>Pride and Prejudice</td><td>Jane Austen</td><td>Romance</td><td><a href="https://www.gutenberg.org/ebooks/1342" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>5</td><td>To Kill a Mockingbird</td><td>Harper Lee</td><td>Fiction</td><td><a href="https://www.britannica.com/topic/To-Kill-a-Mockingbird" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>6</td><td>Brave New World</td><td>Aldous Huxley</td><td>Sci-Fi</td><td><a href="https://www.huxley.net/bnw/" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>7</td><td>Moby Dick</td><td>Herman Melville</td><td>Adventure</td><td><a href="https://www.gutenberg.org/ebooks/2701" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>8</td><td>The Catcher in the Rye</td><td>J.D. Salinger</td><td>Modern Classic</td><td><a href="https://www.britannica.com/topic/The-Catcher-in-the-Rye" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>9</td><td>The Alchemist</td><td>Paulo Coelho</td><td>Philosophical</td><td><a href="https://www.paulocoelhoblog.com" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>10</td><td>Frankenstein</td><td>Mary Shelley</td><td>Horror</td><td><a href="https://www.gutenberg.org/ebooks/84" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>11</td><td>The Book Thief</td><td>Markus Zusak</td><td>Historical Fiction</td><td><a href="https://www.randomhouse.com" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>12</td><td>Dune</td><td>Frank Herbert</td><td>Sci-Fi</td><td><a href="https://www.dunenovels.com" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>13</td><td>Little Women</td><td>Louisa May Alcott</td><td>Coming of Age</td><td><a href="https://www.gutenberg.org/ebooks/514" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>14</td><td>Sapiens</td><td>Yuval Noah Harari</td><td>Non-Fiction</td><td><a href="https://www.ynharari.com/book/sapiens/" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                        <tr><td>15</td><td>The Road</td><td>Cormac McCarthy</td><td>Post-Apocalyptic</td><td><a href="https://www.vintagebooks.com" target="_blank" rel="noopener noreferrer" class="link-btn">Open Book</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+</body>
 </html>
